@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   "author": "hien",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "16.4.5",
+    "ejs": "3.1.10",
     "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
   }
 }
